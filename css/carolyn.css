@@ -1,0 +1,31 @@
+header, section, aside, footer {
+  background-color: purple;
+  color: white;
+  box-shadow: 2px  2px 5px 2px grey;
+  padding: 24px 14px;
+  border-radius: 10px;
+  font: 14px/24px "lucida console";
+  margin: 10px;
+}
+#carolyn {
+  float: right;
+  margin-left: 10px;
+}
+section {
+  float: left;
+  width: 60%;
+}
+aside{
+  float: right;
+  width: 25%;
+
+
+}
+footer, header {
+  text-align: center;
+  clear: both;
+}
+
+header.p {
+  display: none;
+}
